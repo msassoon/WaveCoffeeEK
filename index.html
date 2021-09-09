@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/html" xmlns="//www.w3.org/1999/html">
+	
+<head>
+    <title>Wave Coffee</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<input type="hidden" id="email" name="email" value="marc.sassoon@genesys.com">
+	<input type="hidden" id="firstname" name="firstname" value="Marc">
+	<input type="hidden" id="lastname" name="lastname" value="Sassoon">
+
+    <!-- Set URL parms -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177251718-1"></script>
+	
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177251718-1');
+  console.log('GA tag loaded');
+	 
+</script>
+	
+    <script>
+(function (g, e, n, es, ys) {
+        g['_genesysJs'] = e;
+        g[e] = g[e] || function () {
+          (g[e].q = g[e].q || []).push(arguments)
+        };
+        g[e].t = 1 * new Date();
+        g[e].c = es;
+        ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+      })(window, 'Genesys', 'https://apps.mypurecloud.ie/genesys-bootstrap/genesys.min.js', {
+        environment: 'euw1',
+        deploymentId: '820df811-6380-46a3-9320-929b3a8d39c2'
+      });
+	Genesys("command", "Journey.record", { eventName: "login",  customAttributes: { email: "joe@cxmail.com", givenName: "Joe", familyName: "Bloggs" } });
+    </script>
+
+	
+<style>
+.button {
+top:450px;right:-15px;position:fixed;z-index:99999;padding:10px;color:#000000;border:1px solid #000000;transform: rotate(-90deg);height:43.5px;font-weight:700;
+}
+
+.chat-button {background-color: #ffffff!;}
+</style>
+	
+</head>
+
+<body>
+
+<img src="images/home.jpg" alt="Home" usemap="#workmap" width=100% height=100%>
+<map name="workmap">
+  <area shape="rect" coords="288,74,638,123" alt="Store" href="store.html">
+  <area shape="rect" coords="1055,465,1314,545" alt="Shop Now" href="store.html">
+  <area shape="rect" coords="1033,77,1197,115" alt="Contact Us" href="contact.html">
+</map>
+</body>
+</html>

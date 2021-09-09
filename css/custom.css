@@ -1,0 +1,64 @@
+
+/* **** default backgrounds and hot spot positions **** */
+/* -pages-background-start- */
+#GoogleSearch  {background: url('../images/GoogleSearch.jpg');}
+#GoogleSearchResult  {background: url('../images/GoogleSearchResult.jpg');}
+#home  {background: url('../images/home.jpg');}
+#ContactUs  {background: url('../images/ContactUs.jpg');}
+#Store  {background: url('../images/Store.jpg');}
+#product01  {background: url('../images/product01.jpg');}
+#product02  {background: url('../images/product02.jpg');}
+#product03  {background: url('../images/product03.jpg');}
+#product04  {background: url('../images/product04.jpg');}
+#product05  {background: url('../images/product05.jpg');}
+#product06  {background: url('../images/product06.jpg');}
+#Cart_Empty  {background: url('../images/Cart_Empty.jpg');}
+#Cart  {background: url('../images/Cart.jpg');}
+#checkout  {background: url('../images/checkout.jpg');}
+#thankYou  {background: url('../images/thankYou.jpg');}
+#product04b  {background: url('../images/product04b.jpg');}
+/* -pages-background-end- */
+
+/* *** hot spots size/position *** */
+
+/* -hot-areas-start- */
+[CloseJourneys]   {top: 0.0%; left: 0.0%; height: 9.2%; width: 10.7%;}
+[GoogleResultsLink1]   {top: 28.9%; left: 35.8%; height: 29.9%; width: 9.2%;}
+[GoogleResultsLink2]   {top: 61.6%; left: 16.1%; height: 11.9%; width: 39.6%;}
+[GoogleSearchInput]   {top: 44.3%; left: 31.7%; height: 5.7%; width: 34.5%; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-style: normal; color: #000000;}
+[GoogleSearch_btn1]   {top: 53.6%; left: 38.5%; height: 6.7%; width: 11.2%;}
+[KnowledgeNudge]   {top: 94.5%; left: 73.6%; height: 5.5%; width: 26.4%;}
+[Note]   {top: 71.4%; left: 16.8%; height: 5.1%; width: 28.1%; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-style: normal; color: #666666;}
+[SMtwitter]   {top: 78.2%; left: 33.5%; height: 7.9%; width: 4.3%;}
+[SubmitCart]   {top: 82.0%; left: 55.3%; height: 7.8%; width: 29.1%;}
+[TEMP_moveToThankYou]   {top: 82.0%; left: 55.3%; height: 7.8%; width: 29.1%;}
+[TEMP_sendSMS_ABClink]   {top: 41.2%; left: 31.9%; height: 6.1%; width: 36.7%;}
+[TEMP_send_SMS_survey]   {top: 58.5%; left: 32.1%; height: 17.0%; width: 36.7%;}
+[TEMP_submitCartiWD]   {top: 82.7%; left: 55.6%; height: 6.5%; width: 14.7%;}
+[add_cart1]   {top: 0.0%; left: 0.0%; height: 20.0%; width: 20.0%;}
+[add_to_cart_P4]   {top: 52.4%; left: 57.0%; height: 8.5%; width: 28.7%;}
+[cart]   {top: 9.1%; left: 80.4%; height: 5.1%; width: 8.4%;}
+[check-out2]   {top: 81.2%; left: 70.7%; height: 8.5%; width: 13.4%;}
+[contactUs_call_back]   {top: 63.6%; left: 64.4%; height: 7.1%; width: 19.9%;}
+[contactUs_call_me_now]   {top: 56.2%; left: 64.1%; height: 6.6%; width: 20.7%;}
+[contactUs_chat]   {top: 71.1%; left: 64.3%; height: 7.4%; width: 20.6%;}
+[contactUs_social]   {top: 85.6%; left: 64.5%; height: 7.4%; width: 19.8%;}
+[contactUs_video_chat]   {top: 78.5%; left: 64.5%; height: 6.6%; width: 19.6%;}
+[contact_us_page1]   {top: 8.8%; left: 68.1%; height: 5.8%; width: 9.3%;}
+[contact_us_page2]   {top: 94.5%; left: 17.6%; height: 5.5%; width: 7.3%;}
+[customerCity]   {top: 73.8%; left: 15.9%; height: 4.1%; width: 35.2%; font-size: 24px; font-family: Arial, Helvetica, sans-serif; font-style: normal; color: #4e5054;}
+[customerName]   {top: 65.6%; left: 15.9%; height: 4.4%; width: 35.2%; font-size: 24px; font-family: Arial, Helvetica, sans-serif; font-style: normal; color: #4e5054;}
+[customerStreet]   {top: 70.1%; left: 15.9%; height: 4.1%; width: 35.2%; font-size: 24px; font-family: Arial, Helvetica, sans-serif; font-style: normal; color: #4e5054;}
+[home]   {top: 0.0%; left: 11.2%; height: 14.4%; width: 7.7%;}
+[product01]   {top: 18.0%; left: 31.4%; height: 35.4%; width: 15.5%;}
+[product02]   {top: 18.4%; left: 50.7%; height: 35.4%; width: 15.5%;}
+[product03]   {top: 18.4%; left: 69.8%; height: 35.0%; width: 15.5%;}
+[product04]   {top: 56.8%; left: 31.5%; height: 36.7%; width: 15.5%;}
+[product05]   {top: 57.5%; left: 51.4%; height: 35.4%; width: 15.3%;}
+[product06]   {top: 56.8%; left: 70.4%; height: 36.4%; width: 15.5%;}
+[store]   {top: 8.8%; left: 20.8%; height: 5.8%; width: 11.6%;}
+[storeCoffee]   {top: 8.8%; left: 35.0%; height: 5.8%; width: 6.3%;}
+[store_btn1]   {top: 20.7%; left: 11.1%; height: 53.4%; width: 78.0%;}
+[twitterBtn]   {top: 94.5%; left: 12.2%; height: 5.5%; width: 4.0%;}
+/* -hot-areas-end- */
+
