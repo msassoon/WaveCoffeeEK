@@ -36,7 +36,12 @@
         environment: 'euw2',
         deploymentId: 'c5e782ea-e97b-47e0-ba63-288109838016'
       });
-	Genesys("command", "Journey.record", { eventName: "login",  customAttributes: { email: "joe@cxmail.com", givenName: "Joe", familyName: "Bloggs" } });
+	Genesys("subscribe", "Journey.ready", function(){Genesys("command", "Journey.record", { eventName: "login",  customAttributes: { email: "joe@cxmail.com", givenName: "Joe", familyName: "Bloggs" }, traitsMapper: [
+   {"fieldName": "email"},
+   {"fieldName": "givenName"},
+   {"fieldName": "familyName"}] });});
+	Genesys("subscribe", "Messenger.opened", function() {gtag('event','Engage',{'event_category':'GPEWM','event_label': 'Messenger opened'});});
+   	Genesys("subscribe", "Conversations.started", function() {gtag('event','Engage',{'event_category':'GPEWM','event_label': 'Messenger Conversation started'});});
     </script>
 
 	
